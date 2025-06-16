@@ -44,7 +44,7 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
-### 💻 How to Use
+###How to Use 💻
 Once the installation is complete, running the application is simple.
 
 Run the pdf_enhancer.py script from your terminal:
@@ -72,18 +72,6 @@ Images to PDF: The processed images are compiled back into a single, enhanced PD
 This is an open-source project, and contributions of all kinds are welcome! Whether it's reporting a bug, suggesting a new feature, or submitting code, your help is greatly appreciated.
 
 Feel free to check the issues page to see what needs attention or to open a new issue.
-
-If you'd like to contribute code, please fork the repository and create a pull request:
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
 
 📜 License
 Copyright 2025 Ahmed Gali
