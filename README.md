@@ -1,4 +1,4 @@
-#📄 PDF Print Enhancer
+**📄 PDF Print Enhancer**
 An open-source tool to automatically "scan" and enhance your PDF documents. It straightens pages, increases contrast, and cleans up backgrounds, making them perfect for printing or digital archiving.
 
 **✨ Features**
