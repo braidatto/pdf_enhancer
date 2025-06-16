@@ -24,20 +24,18 @@ You need to have Python 3.8 or newer installed on your system. You can download 
 git clone https://github.com/ItsSp00ky/pdf_enhancer.git
 cd pdf-print-enhancer
 
-(Replace your-username with your actual GitHub username.)
-
 2. Create a Virtual Environment (Recommended)
    It's a good practice to create a virtual environment to keep dependencies isolated.
-
-On macOS/Linux:
-
-python3 -m venv venv
-source venv/bin/activate
 
 **On Windows:**
 
 python -m venv venv
 .\venv\Scripts\activate
+
+On macOS/Linux:
+
+python3 -m venv venv
+source venv/bin/activate
 
 3. Install Dependencies
    Install all the required Python libraries using the requirements.txt file.
@@ -51,7 +49,7 @@ Run the pdf_enhancer.py script from your terminal:
 ```
 python pdf_enhancer.py
 ```
-Your terminal will display a local URL, usually ``` http://127.0.0.1:7860. ```
+Your terminal will display a local URL, usually ``` http://127.0.0.1:7860 ```
 
 Open this URL in your web browser.
 
