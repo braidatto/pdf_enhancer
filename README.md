@@ -44,7 +44,7 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
-###How to Use 💻
+**How to Use 💻**
 Once the installation is complete, running the application is simple.
 
 Run the pdf_enhancer.py script from your terminal:
