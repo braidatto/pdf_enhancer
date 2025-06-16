@@ -1,4 +1,4 @@
-**📄 PDF Print Enhancer**
+#📄 PDF Print Enhancer
 An open-source tool to automatically "scan" and enhance your PDF documents. It straightens pages, increases contrast, and cleans up backgrounds, making them perfect for printing or digital archiving.
 
 **✨ Features**
@@ -44,7 +44,7 @@ python -m venv venv
 
 pip install -r requirements.txt
 
-**💻 How to Use**
+### 💻 How to Use
 Once the installation is complete, running the application is simple.
 
 Run the pdf_enhancer.py script from your terminal:
