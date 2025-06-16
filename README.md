@@ -21,7 +21,7 @@ You need to have Python 3.8 or newer installed on your system. You can download 
 1. Clone the Repository
    First, clone this repository to your local machine using Git:
 
-git clone https://github.com/your-username/pdf-print-enhancer.git
+git clone https://github.com/ItsSp00ky/pdf_enhancer.git
 cd pdf-print-enhancer
 
 (Replace your-username with your actual GitHub username.)
