@@ -4,9 +4,9 @@
 
 *Transform PDFs into Stunning, Professional-Quality Documents*
 
-![last-commit](https://img.shields.io/github/last-commit/SpookyLY/pdf_enhancer?style=flat&logo=git&logoColor=white&color=0080ff)
-![repo-top-language](https://img.shields.io/github/languages/top/SpookyLY/pdf_enhancer?style=flat&color=0080ff)
-![repo-language-count](https://img.shields.io/github/languages/count/SpookyLY/pdf_enhancer?style=flat&color=0080ff)
+![last-commit](https://img.shields.io/github/last-commit/ItsSp00ky/pdf_enhancer?style=flat&logo=git&logoColor=white&color=0080ff)
+![repo-top-language](https://img.shields.io/github/languages/top/ItsSp00ky/pdf_enhancer?style=flat&color=0080ff)
+![repo-language-count](https://img.shields.io/github/languages/count/ItsSp00ky/pdf_enhancer?style=flat&color=0080ff)
 
 *Built with the tools and technologies:*
 
