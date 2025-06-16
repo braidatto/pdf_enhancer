@@ -41,17 +41,17 @@ python -m venv venv
 
 3. Install Dependencies
    Install all the required Python libraries using the requirements.txt file.
-
+```
 pip install -r requirements.txt
-
+```
 ### 💻 How to Use
 Once the installation is complete, running the application is simple.
 
 Run the pdf_enhancer.py script from your terminal:
-
+```
 python pdf_enhancer.py
-
-Your terminal will display a local URL, usually http://127.0.0.1:7860.
+```
+Your terminal will display a local URL, usually ``` http://127.0.0.1:7860. ```
 
 Open this URL in your web browser.
 
