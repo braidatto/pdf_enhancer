@@ -60,7 +60,7 @@ Build pdf_enhancer from the source and install dependencies:
 
 1.  **Clone the repository:**
     ```sh
-    ❯ git clone [https://github.com/SpookyLY/pdf_enhancer](https://github.com/SpookyLY/pdf_enhancer)
+    ❯ https://github.com/ItsSp00ky/pdf_enhancer
     ```
 2.  **Navigate to the project directory:**
     ```sh
@@ -80,4 +80,4 @@ Run the project with:
 **Using [pip](https://pypi.org/project/pip/):**
 
 ```sh
-python {entrypoint}
+python pdf_enhancer.py
