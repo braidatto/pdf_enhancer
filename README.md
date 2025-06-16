@@ -1,7 +1,7 @@
-📄 PDF Print Enhancer
+**📄 PDF Print Enhancer**
 An open-source tool to automatically "scan" and enhance your PDF documents. It straightens pages, increases contrast, and cleans up backgrounds, making them perfect for printing or digital archiving.
 
-✨ Features
+**✨ Features**
 Automatic Page Straightening: Detects the document within each page and corrects its perspective.
 
 High-Contrast Output: Converts pages into a clean, black-and-white format, similar to a physical scanner.
@@ -12,7 +12,7 @@ Adjustable Quality: Control the output resolution (DPI) for a perfect balance be
 
 In-Memory Processing: Fast and efficient, with no intermediate files saved to your disk.
 
-🚀 Getting Started
+**🚀 Getting Started**
 Follow these steps to get the PDF Print Enhancer running on your local machine.
 
 Prerequisites
@@ -34,7 +34,7 @@ On macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
-On Windows:
+**On Windows:**
 
 python -m venv venv
 .\venv\Scripts\activate
@@ -44,12 +44,12 @@ python -m venv venv
 
 pip install -r requirements.txt
 
-💻 How to Use
+**💻 How to Use**
 Once the installation is complete, running the application is simple.
 
-Run the app.py script from your terminal:
+Run the pdf_enhancer.py script from your terminal:
 
-python app.py
+python pdf_enhancer.py
 
 Your terminal will display a local URL, usually http://127.0.0.1:7860.
 
@@ -59,7 +59,7 @@ Drag and drop your PDF file into the upload box, adjust the DPI if needed, and c
 
 Once processing is complete, a download link for your enhanced PDF will appear.
 
-🤔 How It Works
+**🤔 How It Works**
 The tool follows a simple three-step process:
 
 PDF to Images: The input PDF is converted into a series of high-resolution images, one for each page.
@@ -68,7 +68,7 @@ Image Processing: Each image is analyzed using OpenCV to find the four corners o
 
 Images to PDF: The processed images are compiled back into a single, enhanced PDF file.
 
-🤝 Contributing
+**🤝 Contributing**
 This is an open-source project, and contributions of all kinds are welcome! Whether it's reporting a bug, suggesting a new feature, or submitting code, your help is greatly appreciated.
 
 Feel free to check the issues page to see what needs attention or to open a new issue.
