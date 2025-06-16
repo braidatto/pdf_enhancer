@@ -1,81 +1,130 @@
-**📄 PDF Print Enhancer**
-An open-source tool to automatically "scan" and enhance your PDF documents. It straightens pages, increases contrast, and cleans up backgrounds, making them perfect for printing or digital archiving.
+## pdf_enhancer
 
-**✨ Features**
-Automatic Page Straightening: Detects the document within each page and corrects its perspective.
+A **Python** project.
 
-High-Contrast Output: Converts pages into a clean, black-and-white format, similar to a physical scanner.
+-   **Stars:** 0
+-   **Updated:** 1m ago
 
-User-Friendly Web Interface: Simple drag-and-drop UI powered by Gradio. No command-line skills needed.
+> Full Codebase Documentation (Coming Soon)
 
-Adjustable Quality: Control the output resolution (DPI) for a perfect balance between file size and quality.
+---
 
-In-Memory Processing: Fast and efficient, with no intermediate files saved to your disk.
+## Customize README
 
-**🚀 Getting Started**
-Follow these steps to get the PDF Print Enhancer running on your local machine.
+### Default Sections
 
-Prerequisites
-You need to have Python 3.8 or newer installed on your system. You can download it from python.org.
+These sections are always included in your README:
 
-1. Clone the Repository
-   First, clone this repository to your local machine using Git:
+-   Header
+-   Table of Contents
+-   Overview
+-   Quickstart
 
-git clone https://github.com/ItsSp00ky/pdf_enhancer.git
-cd pdf-print-enhancer
+### Styling
 
-2. Create a Virtual Environment (Recommended)
-   It's a good practice to create a virtual environment to keep dependencies isolated.
+Customize the visual appearance of your README.
 
-**On Windows:**
+-   **Header Alignment:** Left, **Center**, Right
+-   **Table of Contents Style:** Bullets
+-   **Generate Logo:** Off
+-   **Add Emojis to Headings:** Off
 
-python -m venv venv
-.\venv\Scripts\activate
+### Premium Sections
 
-On macOS/Linux:
+Additional sections to enhance your README. Unlock with an upgrade.
 
-python3 -m venv venv
-source venv/bin/activate
+-   Features
+-   Project Structure
+-   Project Index
+-   Roadmap
+-   Contribution
+-   License
+-   Acknowledgements
 
-3. Install Dependencies
-   Install all the required Python libraries using the requirements.txt file.
-```
-pip install -r requirements.txt
-```
-**How to Use 💻**
-Once the installation is complete, running the application is simple.
+---
 
-Run the pdf_enhancer.py script from your terminal:
-```
-python pdf_enhancer.py
-```
-Your terminal will display a local URL, usually ``` http://127.0.0.1:7860 ```
+## Generated README Preview
 
-Open this URL in your web browser.
+<div id="top" align="center">
 
-Drag and drop your PDF file into the upload box, adjust the DPI if needed, and click "Submit".
+# PDF_ENHANCER
 
-Once processing is complete, a download link for your enhanced PDF will appear.
+*Transform PDFs into Stunning, Professional-Quality Documents*
 
-**🤔 How It Works**
-The tool follows a simple three-step process:
+![last-commit](https://img.shields.io/github/last-commit/SpookyLY/pdf_enhancer?style=flat&logo=git&logoColor=white&color=0080ff)
+![repo-top-language](https://img.shields.io/github/languages/top/SpookyLY/pdf_enhancer?style=flat&color=0080ff)
+![repo-language-count](https://img.shields.io/github/languages/count/SpookyLY/pdf_enhancer?style=flat&color=0080ff)
 
-PDF to Images: The input PDF is converted into a series of high-resolution images, one for each page.
+*Built with the tools and technologies:*
 
-Image Processing: Each image is analyzed using OpenCV to find the four corners of the document. A perspective transform is applied to "straighten" the page. Finally, an adaptive threshold is used to create a clean, high-contrast binary image.
+![Markdown](https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white)
 
-Images to PDF: The processed images are compiled back into a single, enhanced PDF file.
+</div>
 
-**🤝 Contributing**
-This is an open-source project, and contributions of all kinds are welcome! Whether it's reporting a bug, suggesting a new feature, or submitting code, your help is greatly appreciated.
+---
 
-Feel free to check the issues page to see what needs attention or to open a new issue.
+## Table of Contents
 
-📜 License
-Copyright 2025 Ahmed Gali
+-   [Overview](#overview)
+-   [Getting Started](#getting-started)
+    -   [Prerequisites](#prerequisites)
+    -   [Installation](#installation)
+    -   [Usage](#usage)
+    -   [Testing](#testing)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Overview
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+pdf_enhancer is an innovative developer tool designed to automatically improve PDF document quality through image processing techniques. It converts PDFs into images, applies enhancements such as page straightening, contrast boosting, and background cleaning, then reconstructs polished PDFs suitable for printing or digital archiving.
+
+**Why pdf_enhancer?**
+
+This project simplifies complex PDF editing tasks with automation and speed. The core features include:
+
+-   🎯 **🚀 Fast In-Memory Processing:** Enables quick, efficient handling of large documents without disk I/O bottlenecks.
+-   🖼️ **🛠️ Automated Image Enhancement:** Detects and straightens pages, enhances contrast, and cleans backgrounds for professional results.
+-   🌐 **🎨 User-Friendly Web Interface:** Built with Gradio, providing an accessible, interactive experience directly in the browser.
+-   📄 **🔧 Seamless PDF & Image Handling:** Leverages PyMuPDF, OpenCV, and Pillow for robust document and image manipulation.
+-   💡 **✨ High-Quality Output:** Produces clear, print-ready PDFs optimized for archiving and presentation.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+-   **Programming Language:** Python
+-   **Package Manager:** Pip
+
+### Installation
+
+Build pdf_enhancer from the source and install dependencies:
+
+1.  **Clone the repository:**
+    ```sh
+    ❯ git clone [https://github.com/SpookyLY/pdf_enhancer](https://github.com/SpookyLY/pdf_enhancer)
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    ❯ cd pdf_enhancer
+    ```
+3.  **Install the dependencies:**
+
+    **Using [pip](https://pypi.org/project/pip/):**
+    ```sh
+    ❯ pip install -r requirements.txt
+    ```
+
+### Usage
+
+Run the project with:
+
+**Using [pip](https://pypi.org/project/pip/):**
+
+```sh
+python {entrypoint}
